@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Karthik.V10@ibm.com</value>
-    <value name="createdDate">1750076078954</value>
-    <value name="lastModifiedDate">1750076078954</value>
+    <value name="lastModifiedBy">Karthik.V10@ibm.com</value>
+    <value name="lastModifiedDate">1750076111554</value>
     <value name="displayName">testgv</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -71,13 +70,14 @@
         <array name="mapSet" type="record" depth="1">
           <record javaclass="com.wm.util.Values">
             <value name="field">/key;1;0</value>
-            <value name="value">test1</value>
+            <value name="value">test2</value>
             <Boolean name="variableSubstitution">false</Boolean>
             <Boolean name="overwrite">true</Boolean>
             <Boolean name="globalVariables">false</Boolean>
           </record>
         </array>
         <null name="outputMapSet"/>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
